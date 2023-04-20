@@ -6,7 +6,8 @@ services:
     ports:
       - 5173:5173
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      # - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./front/nginx.conf
     depends_on:
       - front-menu-estab
       - back-menu-estab
