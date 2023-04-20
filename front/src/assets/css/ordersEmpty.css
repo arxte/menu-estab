@@ -1,0 +1,91 @@
+.orders-empty-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 10px 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+  padding-bottom: 30px;
+}
+
+.orders-empty-navigation__title {
+  font-weight: 900;
+  font-size: 1.125em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+}
+
+main {
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+  min-height: calc(100vh - 110px);
+  position: relative;
+}
+
+.orders-empty-wrapper {
+  position: relative;
+  min-height: calc(100vh - 130px);
+  margin: 0px auto;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  text-align: center;
+}
+
+.orders-empty {
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.orders-empty__title {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.orders-empty__text {
+  font-size: 0.825em;
+  font-weight: 500;
+  color: #757575;
+}
+
+.orders-empty__button {
+  min-width: 100%;
+  font-size: 1.125em;
+  font-weight: 800;
+  padding: 9px 0px;
+  border-radius: 0.6em;
+  border: none;
+  background-color: #5FD864;
+  color: #fff;
+}

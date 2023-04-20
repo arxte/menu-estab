@@ -1,0 +1,40 @@
+.basket-total-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 17px;
+  margin-bottom: 45px;
+}
+
+.basket-total-price__title {
+  font-weight: 800;
+  font-size: 1.125em;
+}
+
+.basket-total-price-maintenance-wrapper,
+.basket-total-price-total-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.basket-total-price__maintenance-title,
+.basket-total-price__total-title {
+  font-weight: 500;
+}
+
+.basket-total-price__maintenance-price,
+.basket-total-price__total-price {
+  font-weight: 800;
+}

@@ -1,0 +1,79 @@
+.basket-preview-container {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 5.5%;
+  z-index: 599;
+  padding: 0px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.basket-preview-wrapper {
+  background-color: #5fd864;
+  font-family: "Golos Text", sans-serif;
+  border-radius: 13px;
+  display: block;
+  max-width: 660px;
+  margin: 0px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 14px 10px;
+}
+
+.basket-preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.basket-preview__title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.basket-preview__count-dish-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.basket-preview__cost {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.125em;
+}
+
+.basket-preview__img {
+  max-width: 26px;
+  max-height: 26px;
+}
+
+.show-btn-enter-active,
+.show-btn-leave-active {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.show-btn-enter-from,
+.show-btn-leave-to {
+  opacity: 0;
+}

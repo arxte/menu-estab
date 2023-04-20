@@ -1,0 +1,61 @@
+.basket-clear {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Golos Text', sans-serif;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  min-width: 660px;
+  min-height: 100vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.basket-clear-popup-wrapper {
+  position: relative;
+  min-width: 100%;
+  height: 100vh;
+}
+
+.basket-clear-popup {
+  min-width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 1em;
+}
+
+.basket-clear-popup__title {
+  font-weight: 600;
+  width: fit-content;
+  margin: 10px auto 30px;
+}
+
+.basket-clear-popup-btns-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.basket-clear-popup-btn {
+  min-width: calc(50% - 5px);
+  padding: 12px 0px;
+  font-size: 1.125em;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.6em;
+}
+
+.basket-clear-popup-btn-no {
+  background-color: #f1f2f7;
+  color: #000;
+}
+
+.basket-clear-popup-btn-yes {
+  background-color: #5FD864;
+  color: #fff;
+}

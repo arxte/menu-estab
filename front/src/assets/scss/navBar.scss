@@ -1,0 +1,28 @@
+.navbar {
+  max-width: 660px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  // justify-content: space-between;
+  // padding: 0px 30px;
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 46px 46px #0000000d, 0 3px 38.4354px #00000009, 0 -3px 20.5494px #0000000f,
+    0 5.79369px 11.5198px #00000005, 0 2.40368px 6.11809px #00000003,
+    0 0.705169px 2.54588px #00000002;
+    margin: 0px auto;
+}
+
+.navbar-icon-wrapper {
+  cursor: pointer;
+  flex: 1;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar__icon {
+  width: 26px;
+  height: 26px;
+}

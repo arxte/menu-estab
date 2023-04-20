@@ -1,0 +1,55 @@
+.popup-basket-clear-enter-active,
+.popup-basket-clear-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.popup-basket-clear-enter-from,
+.popup-basket-clear-leave-to {
+  opacity: 0;
+}
+
+.basket-navigation__title {
+  font-weight: 900;
+  font-size: 1.125em;
+  width: fit-content;
+  margin: 0px auto;
+  // padding: 0px 18px;
+}
+
+.basket-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 10px 18px;
+  font-family: 'Golos Text', sans-serif;
+}
+
+.basket {
+  max-width: 660px;
+  min-height: calc(100vh - 175px);
+  margin: 0px auto;
+  padding: 10px 15px;
+  font-family: 'Golos Text', sans-serif;
+  // min-height: calc(100vh - 100px);
+}
+
+.basket-title-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.basket__title {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.basket__where-eat{
+  font-size: 1em;
+  font-weight: 500;
+  color: #757575;
+}

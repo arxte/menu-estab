@@ -1,0 +1,188 @@
+.select-lang-popup-enter-active,
+.select-lang-popup-leave-active {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.select-lang-popup-enter-from,
+.select-lang-popup-leave-to {
+  -webkit-transform: translateY(100vh);
+          transform: translateY(100vh);
+}
+
+.filter-enter-active,
+.filter-leave-active {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.filter-enter-from,
+.filter-leave-to {
+  opacity: 0;
+}
+
+.profile-wrapper {
+  height: calc(100vh - 46px);
+}
+
+.profile-wrapper_filter {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 998;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.profile-navigation__title {
+  font-weight: 900;
+  font-size: 1.125em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+  /* padding: 11px 0px; */
+}
+
+.profile-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 10px 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+}
+
+.profile {
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 40px 18px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.user-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.user-data__full-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.user-data__numberphone {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.profile-widgets-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.payment-method,
+.orders,
+.select-lang {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ededed;
+  padding: 17px 14px;
+  border-radius: 0.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.orders-link {
+  min-width: 100%;
+}
+
+.orders-link:active,
+.orders-link:hover,
+.orders-link:link,
+.orders-link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.payment-method-content-wrapper,
+.orders-method-content-wrapper,
+.select-lang-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.payment-method__text,
+.orders__text,
+.select-lang {
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+.payment-method__card {
+  color: #757575;
+  font-size: 400;
+}
+
+.select-lang-img {
+  max-width: 20px;
+  max-height: 20px;
+}

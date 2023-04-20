@@ -1,0 +1,123 @@
+.basket-dish-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.basket-dish-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.basket-dish-block__title {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.baslet-dish-img-wrapper {
+  background-color: #e0e0e0;
+  max-width: 64px;
+  min-height: 64px;
+  border-radius: 0.6em;
+}
+
+.basket-dish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.basket-dish__img {
+  max-width: 100%;
+  min-height: 64px;
+}
+
+.info-dish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-dish__title {
+  font-size: 0.825em;
+  font-weight: 700;
+}
+
+.info-dish-button {
+  background-color: #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 1em;
+  max-width: 99px;
+  min-width: 99px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.825em;
+  font-weight: 700;
+}
+
+.info-dish-button-plus, .info-dish-button-minus {
+  position: relative;
+  padding: 14px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.info-dish-button-plus-horizontal,
+.info-dish-button-minus-horizontal,
+.info-dish-button-plus-vertical {
+  min-width: 25%;
+  min-height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.info-dish-button-plus-vertical {
+  min-width: 2px;
+  min-height: 30%;
+}
+
+.basket-dish__price {
+  font-size: 0.825em;
+  font-weight: 700;
+}

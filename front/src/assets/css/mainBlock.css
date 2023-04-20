@@ -1,0 +1,119 @@
+.complaint-popup-enter-active,
+.complaint-popup-leave-active {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.complaint-popup-enter-from,
+.complaint-popup-leave-to {
+  -webkit-transform: translateY(100vh);
+          transform: translateY(100vh);
+}
+
+.wifi-popup-enter-active,
+.wifi-popup-leave-active {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.wifi-popup-enter-from,
+.wifi-popup-leave-to {
+  opacity: 0;
+}
+
+.menu-wrapper {
+  position: relative;
+  max-width: 660px;
+  margin: 0px auto;
+}
+
+.menu {
+  position: relative;
+  min-height: calc(100vh - 98px);
+  /* opacity: .3; */
+}
+
+.menu__title {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 900;
+  font-size: 1.125em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+  padding: 11px 0px;
+}
+
+.menu__banner-establishment {
+  max-width: 100%;
+  min-height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+}
+
+.social-media__instagram-link-wrapper,
+.social-media__tiktok-link-wrapper {
+  padding: 10px 10px;
+  background-color: #ededed;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.menu__location {
+  padding: 15px 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.location {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.location__address-wrapper,
+.location__work-time-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.location__work-time_green-color {
+  color: rgb(5, 191, 13);
+}

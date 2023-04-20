@@ -1,0 +1,74 @@
+.select-lang-popup {
+  font-family: "Golos Text", sans-serif;
+  padding: 0px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  background-color: #fff;
+  position: fixed;
+  min-width: calc(100% - 30px);
+  bottom: 0;
+  z-index: 9999;
+}
+
+.line-ui {
+  min-width: 58px;
+  min-height: 6px;
+  background-color: #C2C2C2;
+  margin: 0px auto;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.select-lang-popup__title {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.select-lang-popup-choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.select-lang-popup-choice-variant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.select-lang-popup-choice-variant__title {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.select-lang-popup__btn {
+  font-family: "Golos Text", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 15px 0px;
+  letter-spacing: 0.05em;
+  min-width: 100%;
+  background-color: #5fd864;
+  border: none;
+  border-radius: 0.6em;
+  color: #fff;
+  margin-bottom: 25px;
+}

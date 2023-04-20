@@ -1,0 +1,47 @@
+.basket-wishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 17px;
+  margin-bottom: 33px;
+  /* padding-top: 10px; */
+}
+
+.basket-wishes__title {
+  font-weight: 800;
+  font-size: 1.125em;
+}
+
+.basket-wishes__input {
+  min-width: calc(100% - 30px);
+  max-height: auto;
+  border: none;
+  background-color: rgba(164, 162, 183, 0.15);
+  padding: 15px 15px;
+  font-weight: 600;
+  border-radius: 0.7em;
+}
+
+.basket-wishes__input::-webkit-input-placeholder {
+  opacity: 0.7;
+}
+
+.basket-wishes__input::-moz-placeholder {
+  opacity: 0.7;
+}
+
+.basket-wishes__input:-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.basket-wishes__input::-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.basket-wishes__input::placeholder {
+  opacity: 0.7;
+}
