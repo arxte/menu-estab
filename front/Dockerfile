@@ -10,7 +10,7 @@ COPY . .
 RUN npm install
 
 # Сборка проекта
-RUN npm run build
+# RUN npm run build
 
 # Установка Nginx
 RUN apk add nginx

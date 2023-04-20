@@ -8,13 +8,13 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
     depends_on:
-      - front
-      - back
-  front:
-    build: ./front
+      - front-menu-estab
+      - back-menu-estab
+  front-menu-estab:
+    build: ./front-menu-estab
     restart: always
-  back:
-    build: ./back
+  back-menu-estab:
+    build: ./back-menu-estab
     restart: always
     depends_on:
       - db
