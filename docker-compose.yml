@@ -11,10 +11,10 @@ services:
       - front-menu-estab
       - back-menu-estab
   front-menu-estab:
-    build: ./front-menu-estab
+    build: ./front
     restart: always
   back-menu-estab:
-    build: ./back-menu-estab
+    build: ./back
     restart: always
     depends_on:
       - db
