@@ -1,0 +1,198 @@
+.popup-card-dish-addit_bgc {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(27, 27, 27, 0.8);
+  /* filter: blur(100px); */
+  /* z-index: 99; */
+  /* background-color: #fff; */
+  -webkit-transition: -webkit-backdrop-filter 0.5s ease;
+  transition: -webkit-backdrop-filter 0.5s ease;
+  transition: backdrop-filter 0.5s ease;
+  transition: backdrop-filter 0.5s ease, -webkit-backdrop-filter 0.5s ease;
+}
+
+.popup-card-dish-addit {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  min-width: 100%;
+  min-height: 90%;
+  z-index: 999;
+  padding: 0px 15px 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 1em 1em 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.line-ui {
+  max-width: 58px;
+  min-height: 6px;
+  background-color: #C2C2C2;
+  margin: 0px auto;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.popup-card-dish-addit-arrow-wrapper {
+  background-color: #EDEDED;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.popup-card-dish-addit__arrow {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.popup-card-dish-addit__img {
+  max-width: 100%;
+  margin: 0px auto;
+  display: block;
+}
+
+.popup-card-dish-addit__title {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 20px 0px 5px;
+}
+
+.popup-card-dish-addit__text {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.popup-card-dish-addit__title-addit {
+  font-size: 1em;
+  font-weight: 700;
+  padding: 20px 0px 0px;
+}
+
+.popup-card-dish-addit__input {
+  min-width: 20px;
+  min-height: 20px;
+  accent-color: #42a245;
+}
+
+.additionally-from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0px 0px;
+}
+
+.additionally-input-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.additionally-input-text {
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+.additionally-input-price {
+  font-size: 0.875em;
+  font-weight: 500;
+  color: #757575;
+}
+
+.btn-add {
+  min-width: 100%;
+  background-color: #5FD864;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.6em;
+}
+
+.btn-add__minus, .btn-add__plus {
+  position: relative;
+  min-width: 24px;
+  min-height: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-add-horizontal,
+.btn-add-horizontal,
+.btn-add-vertical {
+  min-width: 50%;
+  min-height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.btn-add-vertical {
+  min-width: 2px;
+  min-height: 50%;
+}
+
+.btn-add__price {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}

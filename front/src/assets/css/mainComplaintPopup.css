@@ -1,0 +1,99 @@
+.complaint-wrapper {
+  font-family: "Golos Text", sans-serif;
+  border-radius: 0.625em 0.625em 0px 0px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 600;
+  padding: 10px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 660px;
+  margin: 0px auto;
+}
+
+.line-ui {
+  max-width: 58px;
+  min-height: 6px;
+  background-color: #C2C2C2;
+  margin: 0px auto;
+  border-radius: 100px;
+}
+
+.complaint {
+  padding: 50px 18px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.complaint-content-wrapper, .complaint-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.complaint-content-wrapper {
+  gap: 15px;
+}
+
+.complaint-form {
+  gap: 10px;
+}
+
+.complaint__title {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.complaint__text {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.complaint__label {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.complaint__input {
+  min-width: 100%;
+  min-height: 7.5em;
+  -webkit-box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.08);
+          box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 0.7em;
+  border-color: #c2c2c2;
+  background-color: #ededed;
+  padding: 10px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.complaint__btn {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5FD864;
+  border-color: transparent;
+  min-width: calc(100% - 36px);
+  padding: 15px;
+  border-radius: 0.6em;
+  position: absolute;
+  bottom: 30px;
+}

@@ -1,0 +1,39 @@
+.navbar {
+  max-width: 660px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: sticky;
+  bottom: 0;
+  -webkit-box-shadow: 0 46px 46px rgba(0, 0, 0, 0.0509803922), 0 3px 38.4354px rgba(0, 0, 0, 0.0352941176), 0 -3px 20.5494px rgba(0, 0, 0, 0.0588235294), 0 5.79369px 11.5198px rgba(0, 0, 0, 0.0196078431), 0 2.40368px 6.11809px rgba(0, 0, 0, 0.0117647059), 0 0.705169px 2.54588px rgba(0, 0, 0, 0.0078431373);
+          box-shadow: 0 46px 46px rgba(0, 0, 0, 0.0509803922), 0 3px 38.4354px rgba(0, 0, 0, 0.0352941176), 0 -3px 20.5494px rgba(0, 0, 0, 0.0588235294), 0 5.79369px 11.5198px rgba(0, 0, 0, 0.0196078431), 0 2.40368px 6.11809px rgba(0, 0, 0, 0.0117647059), 0 0.705169px 2.54588px rgba(0, 0, 0, 0.0078431373);
+  margin: 0px auto;
+}
+
+.navbar-icon-wrapper {
+  cursor: pointer;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar__icon {
+  width: 26px;
+  height: 26px;
+}

@@ -1,0 +1,22 @@
+.description-wrapper{
+  padding: 0px 18px 30px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description__title{
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.description__text{
+  font-size: .75em;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.4em;
+}

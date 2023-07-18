@@ -1,0 +1,68 @@
+.basket-preview-container {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  // max-width: 660px;
+  bottom: 5.5%;
+  z-index: 599;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  // padding: 0px 60px;
+  // box-sizing: border-box;
+}
+
+.basket-preview-wrapper {
+  background-color: #5fd864;
+  font-family: 'Golos Text', sans-serif;
+  // min-width: 100%;
+  // top: 100%;
+  border-radius: 13px;
+  display: block;
+  max-width: 660px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding: 14px 10px;
+}
+
+.basket-preview {
+  // padding: 10px 0px 13px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.basket-preview__title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.basket-preview__count-dish-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.basket-preview__cost {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.125em;
+}
+
+.basket-preview__img {
+  max-width: 26px;
+  max-height: 26px;
+}
+
+.show-btn-enter-active,
+.show-btn-leave-active {
+  transition: opacity 0.3s;
+}
+
+.show-btn-enter-from,
+.show-btn-leave-to {
+  opacity: 0;
+}

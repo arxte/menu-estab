@@ -1,0 +1,201 @@
+@charset "UTF-8";
+.popup-dish-enter-active,
+.popup-dish-leave-active {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.popup-dish-enter-from,
+.popup-dish-leave-to {
+  opacity: 0;
+}
+
+/* баскет нач */
+/* баскет кон */
+.card-dish-wrapper {
+  /* max-height: 250px; */
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  /* grid-template-rows: repeat(2, max(250px)); */
+  gap: 7px;
+  position: relative;
+}
+
+.card-dish {
+  /* padding: 3px; */
+  font-family: "Golos Text", sans-serif;
+  background-color: rgba(229, 231, 235, 0.5);
+  border-radius: 1em;
+  /* width: 100%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 234px;
+}
+
+.card-dish__img-wrapper {
+  position: relative;
+  max-width: 100%;
+}
+
+.card-dish__img-dish_in-basket {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #939393;
+  opacity: 0.5;
+  display: block;
+  border-radius: 1em 1em 0em 0em;
+  /* display: none; */
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+
+.card-dish__img-amount-dish-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+}
+
+.card-dish__img-amount-dish {
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.card-dish__img {
+  max-width: 100%;
+  max-height: 7.5em;
+  mix-blend-mode: darken;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  margin: 0px auto;
+}
+
+.card-dish__content {
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+/* .card-dish__text-wrapper {
+  flex: 4;
+} */
+.card-dish-text__title {
+  font-size: 0.875em;
+  font-weight: 900;
+  padding: 0px 0px 5px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  /* max-width: fit-content; */
+}
+
+.card-dish-text__paragraph {
+  font-size: 0.75em;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  color: rgb(164, 162, 183);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0px 0px 8px;
+}
+
+.card-dish__price {
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 0.7em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 100%;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+.card-dish__price-text {
+  font-weight: 500;
+}
+
+.card-dish__price-btn {
+  background-color: transparent;
+  border: transparent;
+  min-width: 24px;
+  min-height: 24px;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+.minus_in-active {
+  opacity: 0;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.minus_active {
+  opacity: 1;
+  position: relative;
+  border: transparent;
+  min-width: 24px;
+  min-height: 24px;
+  z-index: 99;
+  color: inherit;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.add_active {
+  background-color: #000;
+  color: #fff;
+}

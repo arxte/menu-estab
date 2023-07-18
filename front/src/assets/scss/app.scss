@@ -1,0 +1,9 @@
+.open-page-enter-active,
+.open-page-leave-active {
+  transition: opacity 0.3s;
+}
+
+.open-page-enter-from,
+.open-page-leave-to {
+  opacity: 0;
+}

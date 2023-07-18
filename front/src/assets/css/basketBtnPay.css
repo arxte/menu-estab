@@ -1,0 +1,19 @@
+.basket-pay-btn-wrapper {
+  position: sticky;
+  padding: 0px 15px;
+  bottom: 6%;
+  z-index: 9;
+  max-width: 630px;
+  margin: 0px auto;
+}
+
+.basket-pay-btn {
+  min-width: 100%;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 0.65em;
+  background-color: #5FD864;
+  font-weight: 800;
+  color: #fff;
+  font-size: 1.5em;
+}

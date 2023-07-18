@@ -1,0 +1,44 @@
+.choice-where-wrapper {
+  padding: 20px 15px 0px;
+}
+
+.choice-where {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(229, 231, 235, 0.5);
+  padding: 4px;
+  border-radius: 1.5em;
+}
+
+.choice-where__with-myself-wrapper,
+.choice-where__in-restaurant-wrapper {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 12px 0px;
+  border-radius: 1.5em;
+  cursor: pointer;
+  border: none;
+  font-family: "Golos Text", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* 
+.choice-where__with-myself-wrapper:target,
+.choice-where__in-restaurant-wrapper:target{
+  background-color: #fff;
+} */
+.choice_active {
+  background-color: #5FD864;
+  color: #fff;
+}

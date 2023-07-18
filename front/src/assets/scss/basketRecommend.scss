@@ -1,0 +1,149 @@
+.basket-recommend {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-bottom: 33px;
+}
+
+.basket-recommend__title {
+  font-weight: 800;
+  font-size: 1.125em;
+}
+
+.basket-recommend-carousel {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  user-select: none;
+}
+
+.basket-recommend-carousel__card-dish {
+  max-width: 140px;
+  min-height: 222px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(241, 242, 247, 1);
+  border-radius: 1em;
+}
+
+.carousel-card-dish__img {
+  max-width: 140px;
+  min-height: 120px;
+  pointer-events: none;
+}
+
+.carousel-card-dish-content {
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 10px 0px;
+}
+
+.carousel-card-dish__name {
+  font-size: 0.875em;
+  font-weight: 900;
+}
+
+.carousel-card-dish-price-btn {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // vertical-align: middle;
+  justify-content: space-between;
+  padding: 8px 5px;
+  border-radius: .7em;
+}
+
+.carousel-card-dish-price-btn__price {
+  font-weight: 500;
+  font-size: .875em;
+}
+
+.carousel-card-dish-price-btn__minus, 
+.carousel-card-dish-price-btn__plus {
+  font-weight: 500;
+  font-size: 1.3em;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+
+
+///
+.carousel-card-dish-img-wrapper{
+  position: relative;
+  min-width: 100%;
+}
+
+
+.popup-dish-enter-active,
+.popup-dish-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.popup-dish-enter-from,
+.popup-dish-leave-to {
+  opacity: 0;
+}
+
+
+.carousel-card-dish__img_in-basket {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #939393;
+  opacity: 0.5;
+  display: block;
+  border-radius: 1em 1em 0em 0em;
+  /* display: none; */
+  transition: opacity 0.8s ease;
+}
+
+.carousel-card-dish__img-amount-wrapper {
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+}
+
+.carousel-card-dish__img-amount {
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+
+
+.minus_in-active {
+  opacity: 0;
+  transition: color 0.4s ease;
+}
+
+.minus_active {
+  opacity: 1;
+  position: relative;
+  border: transparent;
+  min-width: 24px;
+  min-height: 24px;
+  z-index: 99;
+  color: inherit;
+  transition: color 0.4s ease;
+}
+
+.add_active {
+  background-color: #000;
+  color: #fff;
+}

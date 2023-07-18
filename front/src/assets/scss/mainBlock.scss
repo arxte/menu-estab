@@ -1,0 +1,152 @@
+// .menu-wrapper{
+//   min-height: calc(100vh - 90px);
+// }
+
+.complaint-popup-enter-active,
+.complaint-popup-leave-active {
+  transition: transform 0.5s ease;
+}
+
+.complaint-popup-enter-from,
+.complaint-popup-leave-to {
+  transform: translateY(100vh);
+}
+
+.wifi-popup-enter-active,
+.wifi-popup-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.wifi-popup-enter-from,
+.wifi-popup-leave-to {
+  opacity: 0;
+}
+
+.menu-wrapper{
+  position: relative;
+  max-width: 660px;
+  margin: 0px auto;
+}
+
+// .wifi-popup_opacity {
+//   position: absolute;
+//   top: 0%;
+//   left: 0;
+//   transform: translate(0%, 0%);
+//   min-height: 100vh;
+//   min-width: 100%;
+//   z-index: 600;
+//   background: rgba(0, 0, 0, 0.25);
+//   backdrop-filter: blur(2px);
+// }
+
+.menu {
+  // max-width: 660px;
+  // margin: 0px auto;
+  position: relative;
+  min-height: calc(100vh - 98px);
+  /* opacity: .3; */
+}
+
+.menu__title {
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 900;
+  font-size: 1.125em;
+  width: fit-content;
+  margin: 0px auto;
+  padding: 11px 0px;
+}
+
+.menu__banner-establishment {
+  max-width: 100%;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+// .menu__info-discount-wrapper {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 10px 15px;
+// }
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+// .info__rating {
+//   background-color: #EDEDED;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 3px;
+//   align-items: center;
+//   justify-content: space-between;
+//   max-width: fit-content;
+//   border-radius: 0.8em;
+//   padding: 15px 12px;
+//   // box-shadow: 0 46px 46px #0000000d, 0 3px 38.4354px #00000009, 0 -3px 20.5494px #0000000f,
+//   //   0 5.79369px 11.5198px #00000005, 0 2.40368px 6.11809px #00000003,
+//   //   0 0.705169px 2.54588px #00000002;
+// }
+
+// .rating__text {
+//   font-family: 'Golos Text', sans-serif;
+//   font-weight: 500;
+// }
+
+// .info__about,
+.social-media__instagram-link-wrapper,
+.social-media__tiktok-link-wrapper {
+  padding: 10px 10px;
+  background-color: #ededed;
+  border-radius: 0.5em;
+  // box-shadow: 0 46px 46px #0000000d, 0 3px 38.4354px #00000009, 0 -3px 20.5494px #0000000f,
+  //   0 5.79369px 11.5198px #00000005, 0 2.40368px 6.11809px #00000003,
+  //   0 0.705169px 2.54588px #00000002;
+  cursor: pointer;
+}
+
+// .discount {
+//   max-width: fit-content;
+//   height: fit-content;
+//   padding: 5px 10px;
+//   border-radius: 0.8em;
+//   font-family: 'Golos Text', sans-serif;
+//   font-weight: 500;
+//   background-color: #5FD864;
+//   color: #fff;
+// }
+
+.menu__location {
+  padding: 15px 15px 0px;
+  // font-family: 'Golos Text', sans-serif;
+  // font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // gap: 5px;
+}
+
+.location {
+  // padding: 5px 15px;
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.location__address-wrapper,
+.location__work-time-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.location__work-time_green-color {
+  color: rgba(5, 191, 13, 1);
+}

@@ -1,0 +1,75 @@
+.wifi-popup-enter-active,
+.wifi-popup-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.wifi-popup-enter-from,
+.wifi-popup-leave-to {
+  opacity: 0;
+}
+
+.wifi-popup-container {
+  min-height: 100%;
+  min-width: 100vw;
+  position: absolute;
+  top: 0;
+  font-family: 'Golos Text', sans-serif;
+  font-size: 1em;
+  z-index: 999;
+}
+
+.wifi-popup_opacity {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100vw;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.wifi-popup-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 0px 15px;
+}
+
+.wifi-popup {
+  background-color: #fff;
+  border-radius: 0.6em;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+  max-width: calc(660px - 30px);
+}
+
+.wifi-popup__title {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.wifi-popup__wifi-pass {
+  background-color: #ededed;
+  padding: 8px 10px;
+  border-radius: 0.7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wifi-pass__text {
+  font-size: 0.825em;
+  font-weight: 500;
+  background-color: #ededed;
+  border: none;
+  font-family: 'Golos Text', sans-serif;
+}

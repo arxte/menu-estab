@@ -1,0 +1,136 @@
+.orders-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 10px 18px;
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+  padding-bottom: 30px;
+}
+
+.orders-navigation__title {
+  font-weight: 900;
+  font-size: 1.125em;
+  width: fit-content;
+  margin: 0px auto;
+}
+
+main {
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+}
+
+.orders-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orders-date {
+  font-size: 0.825em;
+  font-weight: 500;
+  padding: 3px 10px;
+  background-color: #ededed;
+  border-radius: 1em;
+  max-width: fit-content;
+  margin: 0px auto;
+}
+
+.router-order-to-details{
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  // gap: 20px;
+  min-width: 100%;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  min-width: 100%;
+  // text-decoration: none;
+}
+
+.order-content-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex: 2;
+}
+
+.order__img{
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.order-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 150px;
+}
+
+.order-content__title {
+  font-size: 1em;
+  font-weight: 700;
+  padding-top: 2px;
+}
+
+.order-content-compound-wrapper {
+  flex: 2;
+  display: inline;
+  flex-direction: row;
+  // max-width: 70%;
+  // overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.order-content__compound {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #757575;
+  // flex: 2;
+  padding-top: 5px;
+  // max-width: 20%;
+  // white-space: nowrap;
+}
+
+.order-content__status {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #5fd864;
+  background-color: #bfeac1;
+  padding: 3px 10px;
+  border-radius: 1em;
+  flex: 1;
+  max-width: fit-content;
+  // align-items: flex-end;
+}
+
+.order__price {
+  font-size: 1em;
+  font-weight: 700;
+  // flex: 1;
+  min-width: fit-content;
+}
+
+
+// @media screen and (max-width: 305px) {
+
+
+//   .order__price {
+//     font-size: .9em;
+//   }
+// }

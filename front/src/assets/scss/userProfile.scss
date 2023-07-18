@@ -1,0 +1,140 @@
+.select-lang-popup-enter-active,
+.select-lang-popup-leave-active {
+  transition: transform 0.5s ease;
+}
+
+.select-lang-popup-enter-from,
+.select-lang-popup-leave-to {
+  transform: translateY(100vh);
+}
+
+.filter-enter-active,
+.filter-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.filter-enter-from,
+.filter-leave-to {
+  opacity: 0;
+}
+
+.profile-wrapper {
+  height: calc(100vh - 46px);
+  // background-color: rgba(255, 255, 255, 0.5);
+  // backdrop-filter: blur(10px);
+}
+
+.profile-wrapper_filter {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 998;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.profile-navigation__title {
+  font-weight: 900;
+  font-size: 1.125em;
+  width: fit-content;
+  margin: 0px auto;
+  /* padding: 11px 0px; */
+}
+
+.profile-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 10px 18px;
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+}
+
+.profile {
+  max-width: 660px;
+  margin: 0px auto;
+  padding: 40px 18px 0px;
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-data__full-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.user-data__numberphone {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.profile-widgets-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.payment-method,
+.orders,
+.select-lang {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ededed;
+  padding: 17px 14px;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+}
+
+.orders-link {
+  min-width: 100%;
+}
+
+.orders-link:active,
+.orders-link:hover,
+.orders-link:link,
+.orders-link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.payment-method-content-wrapper,
+.orders-method-content-wrapper,
+.select-lang-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.payment-method__text,
+.orders__text,
+.select-lang {
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+.payment-method__card {
+  color: #757575;
+  font-size: 400;
+}
+
+.select-lang-img {
+  max-width: 20px;
+  max-height: 20px;
+  // max-height: 22px;
+}
